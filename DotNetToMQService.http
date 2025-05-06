@@ -1,0 +1,6 @@
+@DotNetToMQService_HostAddress = http://localhost:5193
+
+GET {{DotNetToMQService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

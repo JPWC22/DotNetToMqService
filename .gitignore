@@ -1,0 +1,63 @@
+##############################################################
+############### .NET and Visual Studio #######################
+##############################################################
+
+# Compiled binary directories (generated during builds)
+bin/
+obj/
+out/
+
+# User-specific files
+.vs/
+*.swp
+*.user
+*.suo
+
+# Debug and Release folders
+Debug/
+Release/
+
+# Build artifacts
+*.exe
+*.dll
+*.pdb
+*.app
+
+# Logs
+*.log
+
+# Temporary files
+*.cache
+*.tmp
+*.csproj.user
+
+# IDE-specific files
+.idea/
+.vscode/
+*.code-workspace
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+##############################################################
+################ CONFIGURATIONS ##############################
+##############################################################
+
+# Environment variables or sensitive credentials
+.env
+
+# appSettings files (leave `appsettings.json`, ignore `*.Development.json`)
+appsettings.Development.json
+appsettings.Local.json
+
+##############################################################
+################### OPERATING SYSTEM #########################
+##############################################################
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+desktop.ini
